@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Final Project</title>
+        <link rel="stylesheet" href="/style.css" type="text/css">
+        <script src="/code.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Random Advice!</h1>
+            <fieldset>
+                <legend>Advice</legend>
+                <form id = "form" action="/main" method="POST">
+                    <label for="adviceInput">Enter ID To Save And Retrieve: </label>
+                    <input type="text" id="adviceInput" name="ID" placeholder="ID" required>
+                    <p id="fact">Your advice will appear here...</p>
+                    <button type="submit">Submit and Go to Page</button>
+                </form>
+            </fieldset>
+         </div>
+    </body>
+</html>
